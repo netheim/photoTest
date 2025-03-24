@@ -10,7 +10,7 @@ type MainTypes = {
     products: Product[],
     searchQuery: string;
     setSearchQuery: (query: string) => void;
-    totalPrice: number;
+    totalPrice?: number;
 
 }
 
