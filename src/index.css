@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Tektur:wght@400..900&display=swap');
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#root {
+    font-family: Outfit, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e4e4e4;
+}
+
